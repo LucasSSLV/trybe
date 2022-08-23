@@ -19,6 +19,11 @@
 
 //Q3
 
-  for(let key in info){
-    console.log(key);
-  }
+//   for(let key in info){
+//     console.log(key);
+//   }
+
+//Q4
+for(let key in info){
+    console.log(info[key]);
+}
