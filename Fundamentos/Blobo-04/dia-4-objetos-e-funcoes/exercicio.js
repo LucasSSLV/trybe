@@ -11,11 +11,11 @@
      personagem: 'Margarida',
     origem: 'Pato Donald',
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-    recorrente: 'Sim'
 }; 
-//    for(let key in info){
-//     console.log(info[key])
-//   }
+    info.recorrente = 'sim';
+for(let key in info){
+    console.log(key, info[key])
+  }
 
 //Q3
 
@@ -24,6 +24,8 @@
 //   }
 
 //Q4
-for(let key in info){
-    console.log(info[key]);
-}
+// for(let key in info){
+//     console.log(info[key]);
+// }
+
+//Q5
