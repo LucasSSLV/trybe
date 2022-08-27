@@ -64,21 +64,21 @@
 // console.log('O livro favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + leitor.livrosFavoritos.livro1.titulo + '.');
 
 //Q8
-let leitor = {
-  nome: 'Julia',
-  sobrenome: 'Pessoa',
-  idade: 21,
-  livrosFavoritos:{
-    livro1:{
-      titulo: 'O Pior Dia de Todos',
-      autor: 'Daniela Kopsch',
-      editora: 'Tordesilhas',
-    },
-    livro2:{
-      titulo: 'Harry Potter e o Prisioneiro de Azkaban',
-      autor: 'JK Rowling',
-      editora: 'Rocco',
-  },
-}
-};
-console.log(leitor.nome + ' tem 2 livros favoritos, ' + leitor.livrosFavoritos.livro1.titulo + ' ' + 'e ' + leitor.livrosFavoritos.livro2.titulo);
+// let leitor = {
+//   nome: 'Julia',
+//   sobrenome: 'Pessoa',
+//   idade: 21,
+//   livrosFavoritos:{
+//     livro1:{
+//       titulo: 'O Pior Dia de Todos',
+//       autor: 'Daniela Kopsch',
+//       editora: 'Tordesilhas',
+//     },
+//     livro2:{
+//       titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+//       autor: 'JK Rowling',
+//       editora: 'Rocco',
+//   },
+// }
+// };
+// console.log(leitor.nome + ' tem 2 livros favoritos, ' + leitor.livrosFavoritos.livro1.titulo + ' ' + 'e ' + leitor.livrosFavoritos.livro2.titulo);
