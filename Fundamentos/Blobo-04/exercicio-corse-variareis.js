@@ -9,3 +9,6 @@ console.log(myNme, birthCity, birthYear);
 //5
 birthYear = 2030;
 console.log(birthYear);
+//6
+// birthCity = 'sobral';
+// não é possivel alterar uma constante apenas var e let.
