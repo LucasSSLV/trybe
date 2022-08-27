@@ -1,3 +1,6 @@
 //1
 const base = 5;
 let height = 8;
+//2
+const area = base * height;
+console.log(area);
