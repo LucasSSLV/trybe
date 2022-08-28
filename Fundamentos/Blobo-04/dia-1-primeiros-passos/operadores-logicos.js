@@ -47,4 +47,13 @@ console.log(message);
 
 //1 
 
-let weekDay = 'quarta-feira';
+let weekDay = 'segunda-feira';
+
+//2
+
+if(weekDay === 'segunda-feira' || weekDay ==='terça-feira' || weekDay ==='quarta-feira' || weekDay === 'quinta' || weekDay === 'sexta-feira'){
+    console.log("Oba, mais um dia de aprendizado na Trybe >:D")
+} 
+if(weekDay === 'sábado' || weekDay === 'domingo'){
+    console.log("FINALMENTE, descanso merecido UwU")
+}
