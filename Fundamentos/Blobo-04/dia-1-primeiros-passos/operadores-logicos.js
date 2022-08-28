@@ -42,3 +42,9 @@ if (currenHour >= 4 && currenHour < 11){
     message = "Hmmm, cheiro de café recém passado";
 }
 console.log(message);
+
+// segunda parte OR-||
+
+//1 
+
+let weekDay = 'quarta-feira';
