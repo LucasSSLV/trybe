@@ -35,14 +35,29 @@
 
 //3 Retorne o maior de 3 numeros
 
-function maior(num1, num2, num3){
+// function maior(num1, num2, num3){
 
-let maior = num1;
+// let maior = num1;
    
-if(num2 > maior)
-      maior = num2;
-if(num3 > maior)
-      maior = num3; 
-console.log(maior);
+// if(num2 > maior)
+//       maior = num2;
+// if(num3 > maior)
+//       maior = num3; 
+// console.log(maior);
+//    }
+// maior(1, 23, -3);
+
+//4 se positivo retorne positivo, se negativo retorne negativo
+
+function positivoNegativo(valor){
+   if(valor > 0){
+      console.log("positivo");
    }
-maior(1, 23, -3);
+   else if(valor < 0){
+      console.log("negativo");
+   }
+   else{
+      console.log("Zero");
+   }
+}
+positivoNegativo(5 - 5);
