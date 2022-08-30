@@ -1,24 +1,24 @@
-// //1 fazer 5 programas 
+//1 fazer 5 programas 
 
-// //adiçao
+//adiçao
 
-// let adi = (a + b);
+let adi = (a + b);
 
-// //subtração
+//subtração
 
-// let sub = (a - b);
+let sub = (a - b);
 
-// //multiplicação
+//multiplicação
 
-// let mult = (a * b);
+let mult = (a * b);
 
-// //divisão
+//divisão
 
-// let div = (a / b);
+let div = (a / b);
 
-// //módulo
+//módulo
 
-// let mod = (a % b);
+let mod = (a % b);
 
 //2 Retorne o maior de dois numeros
 
