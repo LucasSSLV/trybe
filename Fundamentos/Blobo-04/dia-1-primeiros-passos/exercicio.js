@@ -64,14 +64,29 @@
 
 // 5 somar angulos internos de um triangulo
 
-function angulosInternos(angulos){
-   let values = [];
-   for(let i = 0; i < angulos.length; i += 1){
-      values = angulos[i];
+// function angulosInternos(angulos){
+//    let values = [];
+//    for(let i = 0; i < angulos.length; i += 1){
+//       values = angulos[i];
+//    }
+//    if(values <= 0 || values > 188){
+//       return false;
+//    }
+//       return true;
+//    }
+// console.log(angulosInternos([1, 34, -18]))
+
+// 8 Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par.
+//Caso contrário, ele retorna false.
+
+function par_impar(numeros){
+  let sN = ''; 
+   for(let i = 0; i < numeros.length; i+=1){
+      sN = numeros[i];
    }
-   if(values <= 0 || values > 188){
-      return false;
-   }
+   if(sN % 2 === 0){
       return true;
    }
-console.log(angulosInternos([1, 34, -18]))
+   return false;
+}
+console.log(par_impar([2, 6]));
