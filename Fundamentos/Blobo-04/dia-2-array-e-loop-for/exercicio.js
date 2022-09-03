@@ -61,6 +61,14 @@ console.log(menorNum);
 //8 imprima de 1 a 25
 let ateVinteECinco = [];
 for(let c = 0; c < 26; c += 1){
-    ateVinteECinco = [c];    
+    ateVinteECinco = [c];
+
     console.log(ateVinteECinco);
+}
+
+//9 dividir todos os elementos por 2
+let dividosPorDois = [];
+for(let i2 = 0; i2 < 26; i2 += 1){
+    dividosPorDois = [i2] / 2;
+    console.log(dividosPorDois);
 }
