@@ -57,3 +57,10 @@ for(let mn = 0; mn < numbers.length; mn += 1){
     }
 }
 console.log(menorNum);
+
+//8 imprima de 1 a 25
+let ateVinteECinco = [];
+for(let c = 0; c < 26; c += 1){
+    ateVinteECinco = [c];    
+    console.log(ateVinteECinco);
+}
