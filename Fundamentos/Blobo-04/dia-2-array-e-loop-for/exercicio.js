@@ -26,3 +26,25 @@ if((sun / numbers.length) > 20){
 } else {
     console.log('valor menor ou igual a 20');
 }
+
+//5 imprimir maior valor
+let maiorNum = 0;
+for(let contador = 0; contador < numbers.length; contador += 1){
+    if(numbers[contador] > maiorNum){
+        maiorNum = numbers[contador];
+    }
+}
+    console.log(maiorNum);
+
+//6 ddescobrir o numero de valores impares
+let numDiv = [];
+for(let n = 0; n < numbers.length; n += 1){
+    
+    numDiv = numbers[n];
+    }
+    if(numDiv % 3 === 0){
+        console.log(numDiv);
+    }
+    if(numDiv % 3 != 0){
+        console.log('nenhum valor ímpar encontrado');
+    }
