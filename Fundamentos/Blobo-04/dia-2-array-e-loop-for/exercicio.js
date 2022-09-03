@@ -48,3 +48,12 @@ for(let n = 0; n < numbers.length; n += 1){
     if(numDiv % 3 != 0){
         console.log('nenhum valor ímpar encontrado');
     }
+
+// imprimir o menor valor
+let menorNum = 10;
+for(let mn = 0; mn < numbers.length; mn += 1){
+    if(numbers[mn] < menorNum){
+        menorNum = numbers[mn];
+    }
+}
+console.log(menorNum);
