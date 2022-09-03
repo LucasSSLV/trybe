@@ -19,3 +19,10 @@ for(let i = 0; i < numbers.length; i += 1){
 //3 calcular a média aritimética
 
 console.log(sun / numbers.length);
+
+//4 se valor < 20 imprimir 'maior que 20' se não, o contrario
+if((sun / numbers.length) > 20){
+    console.log('valor maior que 20');
+} else {
+    console.log('valor menor ou igual a 20');
+}
