@@ -15,3 +15,7 @@ for(let i = 0; i < numbers.length; i += 1){
    sun += numbers[i];
 }
     console.log(sun);
+
+//3 calcular a média aritimética
+
+console.log(sun / numbers.length);
