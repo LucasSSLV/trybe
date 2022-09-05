@@ -18,7 +18,9 @@ let mudaParaBranco = document.getElementsByClassName('center-content')[0];
 
 mudaParaBranco.style.backgroundColor = 'white';
 
-
 // 4. Crie e execute uma função que corrija o texto da tag <h1>.
+
+let title = document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 - JavaScript';
+
 // 5. Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
 // 6.
