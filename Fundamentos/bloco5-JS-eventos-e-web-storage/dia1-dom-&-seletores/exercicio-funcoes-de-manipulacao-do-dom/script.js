@@ -23,4 +23,9 @@ mudaParaBranco.style.backgroundColor = 'white';
 let title = document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 - JavaScript';
 
 // 5. Crie e execute uma função que modifique todo o texto da tag <p> para maiúsculo.
-// 6.
+
+
+// 6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
+
+let alterar = document.getElementsByTagName('section')[0].innerText;
+console.log(alterar);
