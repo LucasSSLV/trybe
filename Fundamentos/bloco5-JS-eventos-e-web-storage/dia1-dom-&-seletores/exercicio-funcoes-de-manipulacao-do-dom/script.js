@@ -27,5 +27,5 @@ let title = document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 -
 
 // 6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
 
-let alterar = document.getElementsByTagName('section')[0].innerText;
-console.log(alterar);
+let exibir = document.getElementsByTagName('section')[0].innerText;
+console.log(exibir);
