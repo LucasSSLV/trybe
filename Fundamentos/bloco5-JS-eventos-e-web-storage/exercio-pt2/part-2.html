@@ -15,13 +15,19 @@
 
 // 1 Crie um irmão para elementoOndeVoceEsta.
 
-let recebeIrmao = document.getElementById('pai');
+let recebeIrmao = document.getElementById('paiDoPai');
   
 let irmao = document.createElement('section');
 
-recebeIrmao.appendChild(irmao);
+recebeIrmao.appendChild(irmao).innerText = 'sou irmão';
 
 // 2 Crie um filho para elementoOndeVoceEsta.
+
+let recebeFilho = document.getElementById('elementoOndeVoceEsta');
+
+let filho = document.createElement('section');
+
+recebeFilho.appendChild(filho).innerText = 'sou filho';
 
 // 3 Crie um filho para primeiroFilhoDoFilho.
 
