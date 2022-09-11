@@ -32,15 +32,16 @@ recebeFilho.appendChild(filho).innerText = 'sou filho';
 // 3 Crie um filho para primeiroFilhoDoFilho.
 
 let ganhouFilho = document.getElementById('primeiroFilhoDoFilho');
-console.log(ganhouFilho);
 
 let filho1 = document.createElement('section');
 
 filho1.innerText = 'sou o primerio filho';
 
-filho1.className = "filho1";
+filho1.id = "filho1";
 
 ganhouFilho.appendChild(filho1);
 
+
 // 4 A partir desse filho criado, acesse terceiroFilho.
-  </script>
+ 
+ </script>
