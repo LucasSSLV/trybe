@@ -33,7 +33,7 @@ recebeFilho.appendChild(filho).innerText = 'sou filho';
 
 let ganhouFilho = document.getElementById('primeiroFilhoDoFilho');
 
-let filho1 = document.createElement('section');
+let filho1 = document.createElement('p');
 
 filho1.innerText = 'sou o primerio filho';
 
@@ -43,5 +43,7 @@ ganhouFilho.appendChild(filho1);
 
 
 // 4 A partir desse filho criado, acesse terceiroFilho.
+
+console.log(document.querySelector('#primeiroFilhoDoFilho').firstElementChild);
  
  </script>
