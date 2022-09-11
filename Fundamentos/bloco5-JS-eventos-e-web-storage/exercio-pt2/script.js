@@ -1,8 +1,8 @@
 // Crie um irmão para elementoOndeVoceEsta.
 
 let irmao = document.createElement('p');
-console.log(irmao)
 
+console.log(irmao);
 
 // Crie um filho para elementoOndeVoceEsta.
 
